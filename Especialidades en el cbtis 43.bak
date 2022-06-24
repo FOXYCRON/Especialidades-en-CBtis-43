@@ -1,0 +1,25 @@
+#include<stdio.h>
+#include<conio.h>
+int num;
+
+main()
+	{
+   	printf(" Especialidades en el cbtis 43 \n\n");
+      printf("\n 1. Programacion");
+      printf("\n 2. Alimentos");
+      printf("\n 3. Contabilidad");
+      printf("\n\n Escoge una especialidad: "); scanf("%d", &num);
+      switch(num)
+       {
+       	case 1: printf("\n Elegiste Programacion"); break;
+         case 2: printf("\n Elegiste Alimentos"); break;
+         case 3: printf("\n Elegiste Contabilidad"); break;
+         case 4: printf("\n Elegiste Mecatronica"); break;
+         default: printf("\n\n El numero elegido no es valido");
+        }
+
+        printf("\n\n Autor: Irvin Adrian");
+
+        
+      getch();
+     }
